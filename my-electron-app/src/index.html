@@ -7,6 +7,7 @@
     <link rel="icon" href="images/title-icon.png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
+    <script type="text/javascript" src="main.js"/>
     <title>Yakisoba do Japa</title>
 </head>
 <script src="index.js"></script> 
@@ -15,22 +16,22 @@
         <div class="sidebar">
             <ul id="sidebar-list">
                 <u id="sidebar-logo"><div id="sidebar-logo-text"><ul id="sidebar-text">黒</ul><ul id="sidebar-text">崎</ul></div></u>
-                <u id="sidebar-icons"><img src="images/home-icon.png"></u>
-                <u id="sidebar-icons"><img src="images/estoque-icon.png"></u>
-                <u id="sidebar-icons"><img src="images/pedido-icon.png"></u>
+                <u><img src="images/home-icon.png"></u>
+                <u><img src="images/estoque-icon.png"></u>
+                <u><img src="images/pedido-icon.png"></u>
             </ul>
         </div>
 
         <div class="content-left">
             <div class="top">
                 <div class="pedidos-display">
-                    <h3>Total de pedidos</h3>
-                    <p>150</p>
+                    <h>Total de pedidos</h>
+                    <p id="display-text">150</p>
                 </div>
 
                 <div class="financeiro-display">
                     <h>Total financeiro</h>
-                    <p>R$ 1034,70</p>
+                    <p id="display-text">R$ 1034,70</p>
                 </div>
             </div>
 
@@ -40,21 +41,8 @@
                 </div>
 
                 <div id="pedidos-recentes-grid">
-                    <table>
-                        <tr>
-                            <th id="pedidos-recente-grid-cabecalho">Cliente</th>
-                            <th id="pedidos-recente-grid-cabecalho">Endereço</th>
-                            <th id="pedidos-recente-grid-cabecalho">Valor Pedido</th>
-                            <th id="pedidos-recente-grid-cabecalho">Entregar</th>
-                            <th id="pedidos-recente-grid-cabecalho">Status</th>
-                        </tr>
-                        <tr>
-                            <td id="pedidos-recentes-grid-data">Dona Algusta</td>
-                            <td id="pedidos-recentes-grid-data">Tchurusbango tchurusbago, centro, 500</td>
-                            <td id="pedidos-recentes-grid-data">R$ 124,80</td>
-                            <td id="pedidos-recentes-grid-data">Sim</td>
-                            <td id="pedidos-recentes-grid-data">Entregue</td>
-                        </tr>
+                    <table id="tabelaTeste">
+                        
                     </table>
                 </div>
             </div>
