@@ -1,0 +1,135 @@
+body{
+    background: #433F40;
+}
+
+/*Reponsivity start*/
+#display-text{
+    padding-top: 10px;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+}
+
+.content-right{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    padding:16px;
+    gap: 150px;
+}
+/*Responsivity end*/
+
+/*Sidebar start*/
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    background-color: #1E1E1E;
+    border-radius: 15px;
+    border: 2px solid #FF4A4A; 
+    color: #EEEBDD;
+    padding:16px;
+    max-width: fit-content;
+    align-self: self-start;
+}
+
+#sidebar-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center; 
+}
+
+#sidebar-logo{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+#sidebar-logo-img{
+    width: 80%;
+    height: 50%;
+}
+
+#sidebar-logo-text{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #FF4A4A;
+    background-color: #161421;
+    font-family: 'Poppins', sans-serif;
+    padding: 16px;
+}
+
+#sidebar-text{
+    font-size: 140%;
+    color: #FF4A4A;
+    text-decoration: none;
+    text-decoration-line:none ;
+    font-family: 'Poppins', sans-serif;
+}
+/*Sidebar end*/
+
+/*Displays start*/
+.pedidos-display{
+    justify-content: center;
+    border-radius: 15px;
+    border: 2px solid #FF4A4A;
+    background: #252525; 
+    color: #EEEBDD;
+    padding:45px;
+    font-family: 'Poppins', sans-serif;
+    max-height: min-content;
+}
+
+.financeiro-display{
+    justify-content: center;
+    border-radius: 20px;
+    border: 2px solid #FF4A4A;
+    background: #252525; 
+    color: #EEEBDD;
+    padding:45px;
+    font-family: 'Poppins', sans-serif;
+    width: fit-content;
+}
+/*Display end*/
+
+/*Pedidos recentes start*/
+.pedidos-recentes-display{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 2px solid #FF4A4A;
+    border-radius: 15px;
+    background: #252525; 
+    color: #EEEBDD;
+    font-family: 'Poppins', sans-serif;
+}
+
+#pedidos-recentes-label{
+    font-size: 20px;
+    text-align: left;
+    justify-content: left;
+    padding:16px;
+    padding-bottom: 0px;
+}
+
+#pedidos-recentes-grid{
+    display: flex;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 50px;
+    flex-direction: column;
+}
+
+#pedidos-recentes-grid-data{
+    font-size: 14px;
+    padding:22px;
+    text-align: center;
+    border-bottom: 1px solid #FF4A4A;
+}
