@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">`
     
     <link rel="icon" href="images/title-icon.png">
+    <link rel="stylesheet" href="styles/estoque.css">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/reset.css">
     <title>Yakisoba do Japa</title>
 </head>
-<script src="main.js"></script> 
+<script src="scripts/estoque.js"></script> 
 <body>
-    <div class="content">
+    <div class="contentEstoque">
         <div class="sidebar">
             <ul id="sidebar-list">
                 <u id="sidebar-logo"><div id="sidebar-logo-text"><u id="sidebar-text">黒</u><u id="sidebar-text">崎</u></div></u>
@@ -19,7 +20,19 @@
                 <u><a href="estoque.html"><img src="images/estoque-icon.png"></a></u>
                 <u><img src="images/pedido-icon.png"></u>
             </ul>
-        </div>       
+        </div>   
+
+        <div class="right-content">
+            <div id="listaEstoque">
+
+            </div>
+
+            <div id="campos">                    
+                <input type="text" id="produto" name="produto" placeholder="Produto">
+                <input type="text" id="produto" name="produto" placeholder="Custo">
+                <input type="text" id="produto" name="produto" placeholder="Quantidade">
+            </div>
+        </div>
     </div>
 </body>
 </html>

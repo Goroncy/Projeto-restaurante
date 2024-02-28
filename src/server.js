@@ -15,7 +15,7 @@ const server = http.createServer((req, res) => {
 
     let filePath = '.' + req.url;
     if (filePath === './') {
-        filePath = './home.html';
+        filePath = './login.html';
     }
 
     const extname = String(path.extname(filePath)).toLowerCase();

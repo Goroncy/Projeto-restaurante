@@ -1,0 +1,50 @@
+a{
+    text-decoration: none;
+    color:white;
+}
+
+.contentEstoque{
+    display: flex;
+    flex-direction: row;
+    padding:6px;
+    gap: 60px;
+}
+
+.right-content{
+    display: flex;
+    flex-direction: row;
+    padding:6px;
+    gap: 60px;
+}
+
+#campos{
+    display: flex;
+    padding:16px;
+    gap: 10px;
+    flex-direction: column;
+    border: 1px solid #FF4A4A;
+    border-radius: 15px;
+    background-color: #252525;
+    height: fit-content;
+}
+
+#listaEstoque{
+    display: flex;
+    flex-direction: column;
+    background-color: #1E1E1E;
+    border-radius: 15px;
+    border: 2px solid #FF4A4A; 
+    color: #EEEBDD;
+    padding-left:   20px;
+    padding-top:    20px;
+    padding-bottom: 20px;
+    padding-right:  20px;
+    align-self: self-start;
+}
+
+#listaEstoqueProdutos{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center; 
+}
